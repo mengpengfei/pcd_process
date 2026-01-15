@@ -10,7 +10,9 @@ pcd_process 为点云数据处理工具，目前支持分别对多个网格进�
 
 分别执行下面命令
 pip install -r requirement.txt
+
 cd pypcd
+
 python setup.py install
 
 ###### 2、使用
