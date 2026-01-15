@@ -37,6 +37,11 @@ ax.arrow(0, 0, 0, 8,
          head_width=1.5, head_length=3,
          fc='black', ec='black')
 
+# 车头方向箭头
+ax.arrow(0, 0, 8, 0,
+         head_width=1.5, head_length=3,
+         fc='blue', ec='blue')
+
 # 坐标轴设置
 ax.set_xlim(22, -22)
 ax.set_ylim(-22, 52)
